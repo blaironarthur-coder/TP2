@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, sans-serif;
+	background: light-grey;
+	margin: 20px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+table {
+	margin: 0 auto;
+	width: 500px;
+	background: white;
+	border:solid 2px black;
+}
+
+th {
+	background: black;
+	color: white;
+	padding: 12px;
+	border:solid 2px black;
+	font-size: 18px;
+}
+
+td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	border:solid 2px black;
+	text-align: center;
+}
+
+img {
+	width: 40px;
+}
+
+input {
+	padding: 6px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+.bouton {
+	text-align: center;
+	margin-top: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	background: light-grey;
+	color: black;
+	border-color: black;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 14px;
+}
+

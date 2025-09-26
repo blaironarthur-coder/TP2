@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>II. Formulaires — Fichier HTML de base</title>
+	<link rel="stylesheet" href="../css/Formulaires.css">
+	<script src="../js/Formulaires.js"></script>
+</head>
+<body>
+	<h1>II. Formulaires</h1>
+	<hr>
+	
+	<h2>Menu</h2>
+	<div id="menu">
+		<label><input type="checkbox" value="lienImages"> Lien et images</label><br>
+		<label><input type="checkbox" value="elements"> Des éléments !</label><br>
+		<label><input type="checkbox" value="progressions"> Barres de progression</label><br>
+	</div>
+	
+	<div id="lienImages">
+		<hr>
+		<h2>Lien et images</h2>
+		<p><a href="https://www.wikipedia.org">La page principale de Wikipedia</a></p>
+		<p><img src="../images/Google.webp" alt="Logo Google"></p>
+	</div>
+	
+	<div id="elements">
+		<hr>
+		<h2>Des éléments !</h2>
+		<input type="text" id="texte" placeholder="Premiers pas avec Javascript">
+	
+		<input type="radio" name="choix" value="1" id="c1" checked> 
+		<label for="c1" id="label1">Choix N°1</label>
+
+		<input type="radio" name="choix" value="2" id="c2"> 
+		<label for="c2" id="label2">Choix N°2</label>
+
+		<input type="radio" name="choix" value="3" id="c3"> 
+		<label for="c3" id="label3">Choix N°3</label>
+		<br><br>
+
+
+		<br><br>
+		
+		<input type="password" id="mdp" placeholder="Mot de passe">
+		<br><br>
+		
+		<div class="bloc-volume">
+			<input type="range" id="volume" min="0" max="11" value="0">
+			<span id="typeVolume">Volume</span>
+		</div>
+		<p id="valeurVolume"></p>
+		<br><br>
+
+		<input type="checkbox" id="ouinon">
+		<label for="ouinon">Une case à cocher</label>
+		<br><br>
+		
+		<label for="date">Date :</label>
+		<input type="date" id="date">
+		<br><br>
+		
+		<button>Ok</button>
+		</div>
+	<div id="progressions">
+		<hr>
+		<h2>Barres de progression</h2>
+		<label for="progress1">Téléchargement en cours :</label>
+		<progress id="progress1" value="40" max="100"></progress>
+		<br><br>
+		<label for="progress2">Espace disponible :</label>
+		<progress id="progress2" value="50" max="100"></progress>
+	</div>
+	<hr>
+</body>
+</html>

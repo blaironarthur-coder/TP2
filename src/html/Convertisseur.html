@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Convertisseur</title>
+	<script src="../js/Convertisseur.js" defer></script>
+	<link rel="stylesheet" href="../css/Convertisseur.css" />
+</head>
+<body>
+	<hr>
+	<h1>I. Convertisseur de devises</h1>
+	<hr>
+
+	<h2>1. Avec bouton Convertir</h2>
+	<table>
+		<tr>
+			<th colspan="3">Convertisseur</th>
+		</tr>
+		<tr>
+			<td><img src="../images/Euro.png" alt="Euro"></td>
+			<td>Euros</td>
+			<td><input type="number" id="euro1" placeholder="Montant €"></td>
+		</tr>
+		<tr>
+			<td><img src="../images/Dollar.jpg" alt="Dollar US"></td>
+			<td>Dollar Américain</td>
+			<td><input type="text" id="usd1" readonly></td>
+		</tr>
+		<tr>
+			<td><img src="../images/Kangourou.jpg" alt="Dollar Australien"></td>
+			<td>Dollar Australien</td>
+			<td><input type="text" id="aud1" readonly></td>
+		</tr>
+	</table>
+
+	<div class="bouton">
+		<button id="convertir1">Convertir</button>
+	</div>
+
+
+	<h2>2. Conversion instantanée</h2>
+	<table>
+		<tr>
+			<th colspan="3">Convertisseur</th>
+		</tr>
+		<tr>
+			<td><img src="../images/Euro.png" alt="Euro"></td>
+			<td>Euros</td>
+			<td><input type="number" id="euro2" placeholder="Montant €" step="0.01"></td>
+		</tr>
+		<tr>
+			<td><img src="../images/Dollar.jpg" alt="Dollar US"></td>
+			<td>Dollar Américain</td>
+			<td><input type="text" id="usd2" readonly></td>
+		</tr>
+		<tr>
+			<td><img src="../images/Kangourou.jpg" alt="Dollar Australien"></td>
+			<td>Dollar Australien</td>
+			<td><input type="text" id="aud2" readonly></td>
+		</tr>
+	</table>
+</body>
+</html>

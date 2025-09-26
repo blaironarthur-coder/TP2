@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: lightgray;
+  color: black;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#progress1 {
+  width: 175px;
+  height: 10px;
+}
+
+
+.bloc-volume {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#typeVolume {
+    font-weight: bold;
+}
+
+#valeurVolume {
+    margin: 5px 0 0 0;
+    color: #333;
+}
+
+#progress2 {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 150px;
+  height: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #eee;
+  border: none;
+}
+
+#progress2::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+#progress2::-webkit-progress-value {
+  background: linear-gradient(#2ecc71, #27ae60);
+  border-radius: 8px;
+}
+
+#progress2::-moz-progress-bar {
+  background: linear-gradient(#2ecc71, #27ae60);
+}
+
