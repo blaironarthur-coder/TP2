@@ -1,4 +1,4 @@
-Repo appartenant à _Blairon Arthur_ pour le cours de **Technologies Web**.
+# Repo appartenant à _Blairon Arthur_ pour le cours de **Technologies Web**.
 
 Il s'agit d'un Repo dédié au TP2.
 
