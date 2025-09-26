@@ -6,7 +6,7 @@ Il s'agit d'un Repo dédié au TP2.
 
 Il s'agit d'un mini site web basé sur 2 pages :
 Convertisseur.html
-Elle permet de convertir des euros vers des $AUD et $US
+Elle permet de convertir des euros vers des $AUD et $USD
 
 Formulaires.html
 Formulaires demandés par le TP.
